@@ -39,7 +39,7 @@ print("\n*********************    Others         ************************\n")
 
 print('Index Kia: ',cars.index('Kia')) # returns index number of value
 
-print('Check if string is in List:','AUDI' in cars)  # Returns True or false if exists in String
+print('string in List:','AUDI' in cars)  # Returns True or false if exists in String
 
 
 print("\n*********************    NUMERIC         ************************\n")
