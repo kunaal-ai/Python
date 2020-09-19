@@ -13,6 +13,12 @@ for j in states:
     print(j)
     
 # Range 
+# range(start,stop,step)
+# default start to 0 if not initialized 
+print(list(range(4)))
+print(list(range(1,5)))
+print(list(range(1,10,3))) # this will print 3 element from 1
+# OR
 for r in range(5): # will start at 0
     print(r)    
 print('\n')  

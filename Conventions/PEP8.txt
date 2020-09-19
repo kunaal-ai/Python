@@ -1,0 +1,9 @@
+specing
+
+Good :
+print(3*7)
+
+Bad:
+print( 3 * 7 )
+
+Limit 80-99 caracters per line
