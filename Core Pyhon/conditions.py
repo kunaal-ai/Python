@@ -1,13 +1,4 @@
 
-# Comparison 
-# Equal:            ==
-# Not Equal:        !=
-# Greater Than:     >
-# Less Than:        <
-# Greater or Equal: >=
-# Less or Equal:    <=
-# Object Identity:  is
-
 weather = 'Good'
 
 if weather == 'Good':
@@ -23,6 +14,7 @@ else:
 # or
 # not
 # 0/False/() - empty will be == False
+
 air_quality = False
 if weather == 'Good' and air_quality:
     print('Weather is Good and air quality is GOOD')

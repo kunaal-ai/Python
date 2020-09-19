@@ -28,3 +28,18 @@ print(full_name.__contains__('KUN')) # Returns True / false
 print(dir(full_name)) # Prints all possible functions that can be used
 
 print(help(str.lower)) # Help on specefic method
+
+given_name = 'AA'
+middle_name = 'BB'
+family_name = 'CC'
+name_length = len(given_name + middle_name +family_name) 
+print(name_length)
+
+
+about_myself = 'This is KUNAAL kunaal thanik and working in a company as a Software developer engineer in Test'
+# Length
+
+print("Total lenght is {}".format(len(about_myself)))
+print("Index of first kunaal word is : {}".format(about_myself.find('kunaal')))
+print("Last index of in is : {}".format(about_myself.rfind('in')))
+print("Total number of words in is: {}".format(about_myself.count('in')))
