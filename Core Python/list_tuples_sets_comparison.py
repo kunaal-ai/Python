@@ -1,6 +1,5 @@
 
-# Mutable : Can change object value after initialization - LIST
-  
+# Mutable : Can change object value after initialization - LIST  
 # In-mutable : cam NOT changed - Tuples
 # if requirement is not to change the values then use Tuples
 
