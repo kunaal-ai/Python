@@ -27,6 +27,10 @@ x = 2
 x += 1
 x -+1
 
+# Ternary Operator
+
+customer if customer_id else "No customer"
+
 
 carrots = 24
 rabbits = 8

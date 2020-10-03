@@ -27,7 +27,21 @@ for ra in range(1,5): # will start at 0
 print('\n')  
   
 # While
-x = 50
-while x < 55:
-    print(x) 
-    x += 1   
+order_id = 50
+while order_id < 55:
+    print(order_id) 
+    order_id += 1   
+else:
+    print("Else is executed")    
+    
+    
+dic_one = {"Position":"SDET","Address":"123 XYZ","Phone":"999-555-777"}
+for i in dic_one:
+    print("Keys "+ i + " Values", dic_one[i])    
+    
+    
+t_one = ('asd','asdf')
+for i in t_one:
+    print(i)
+    
+   
