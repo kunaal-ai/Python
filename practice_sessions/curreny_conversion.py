@@ -6,6 +6,6 @@ for i in list_one:
 print(total)
 usd = int(total/72) 
 print("$"+ str(usd))
-print("Total USD to send: " + str(int(usd) + 100) )
+print("Total USD to send: $" + str(int(usd) + 100) )
 
 
